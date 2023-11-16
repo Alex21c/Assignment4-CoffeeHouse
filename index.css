@@ -52,7 +52,7 @@ section{
   counter-reset: brown;
   background-color: #d7a1a1;
   border-radius: 10px;
-  box-shadow: 1px 2px 4px 2px #d7a1a1;
+  box-shadow: 0 0 11px 1px rgba(165, 42, 42, .7);
   color: brown;
 }
 
