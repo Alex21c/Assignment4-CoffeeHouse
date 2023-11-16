@@ -1,0 +1,85 @@
+
+html{
+  font-size:16px;
+}
+body{
+  background-color: #a52a2a33;
+  line-height: 1.5rem;
+  font-size:1.2rem;
+  margin:0;
+}
+header{
+  background-image: url(Images/headerBackground.jpg);
+  height: 20rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.displayNone{
+  display: none;
+}
+
+section.containerCoffeeCups{
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+section.containerCoffeeCups div img{
+  width: 12rem;
+  height: 12rem;
+  border-radius: 100%;
+  box-shadow: 1px 2px 9px 5px rgba(0,0,0,.7);
+}
+
+section.containerCoffeeCups div h2{
+  font-size: 1.2rem;
+  margin-top: .5rem;
+}
+
+section{
+  padding: 0.5rem 2rem;
+  width: 85%;
+  margin:auto;
+}
+
+
+
+.infoBox{
+  border: 1px solid #c19898;
+  counter-reset: brown;
+  background-color: #d7a1a1;
+  border-radius: 10px;
+  box-shadow: 1px 2px 4px 2px #d7a1a1;
+  color: brown;
+}
+
+.infoBox ol{
+  
+padding-left: .5rem;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding-bottom: 3rem;
+}
+
+input[name=search]{
+  width: 67%;
+  margin: auto;
+  display: block;
+  padding: 1rem;
+  background-color: #631212;
+  position: sticky;
+  top: 5rem;
+  border-radius: .5rem;
+  text-decoration-color: white;
+  color: white;
+  font-size: 1rem;
+  opacity: 90%;
+  height: 4rem;
+}
